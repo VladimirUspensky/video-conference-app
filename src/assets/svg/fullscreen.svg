@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="xMinYMin slice" viewBox="0 0 30 30" fill="none" stroke="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 26.25C9.30964 26.25 3.75 26.25 3.75 26.25V20"  stroke-linecap="round"/>
+<path d="M26.25 20C26.25 20.6904 26.25 26.25 26.25 26.25L20 26.25"  stroke-linecap="round"/>
+<path d="M20 3.75C20.6904 3.75 26.25 3.75 26.25 3.75L26.25 10"  stroke-linecap="round"/>
+<path d="M3.75 10C3.75 9.30964 3.75 3.75 3.75 3.75L10 3.75"  stroke-linecap="round"/>
+</svg>

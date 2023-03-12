@@ -1,0 +1,25 @@
+.dots {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+
+  &.horizontal {
+    align-items: center;
+    flex-direction: row;
+    width: 20px;
+  }
+
+  &.vertical {
+    flex-direction: column;
+    height: 20px;
+  }
+
+  & > span {
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background: #ffffff;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "downlevelIteration": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@api": ["./api"],
+      "@assets/*": ["./assets/*"],
+      "@features": ["./features"],
+      "@components": ["./components"],
+      "@ui": ["./ui"],
+      "@pages/*": ["./pages/*"],
+      "@styles/*": ["./styles/*"],
+      "~types": ["./types"],
+    }
+  },
+  "include": [
+    "src/**/*",
+    "src",
+    "types.d.ts"
+  ]
+}

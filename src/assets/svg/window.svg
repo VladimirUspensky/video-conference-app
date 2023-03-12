@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="window">
+<path id="Rectangle" d="M3 4C3 3.44772 3.44772 3 4 3H20C20.5523 3 21 3.44772 21 4V21H3V4Z" stroke="white" stroke-linejoin="round"/>
+<path id="Oval 6" fill-rule="evenodd" clip-rule="evenodd" d="M6 7C6.55228 7 7 6.55228 7 6C7 5.44772 6.55228 5 6 5C5.44772 5 5 5.44772 5 6C5 6.55228 5.44772 7 6 7Z" fill="white"/>
+<path id="Oval 6_2" fill-rule="evenodd" clip-rule="evenodd" d="M9 7C9.55228 7 10 6.55228 10 6C10 5.44772 9.55228 5 9 5C8.44772 5 8 5.44772 8 6C8 6.55228 8.44772 7 9 7Z" fill="white"/>
+<path id="Oval 6_3" fill-rule="evenodd" clip-rule="evenodd" d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="white"/>
+<path id="Path 2" d="M21 9H3" stroke="white" stroke-linecap="round"/>
+</g>
+</svg>

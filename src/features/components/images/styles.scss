@@ -1,0 +1,52 @@
+.image1 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  width: 861px;
+}
+
+.server {
+  font-weight: 400;
+  line-height: 35px;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 6px 24px;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  right: 330px;
+  top: 235px;
+  text-transform: uppercase;
+
+  &-blur {
+    background: rgba(0, 40, 49, 0.5);
+  }
+
+  span {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:after {
+    content: "";
+    position: fixed;
+    right: 24px;
+    bottom: -23px;
+    border: 12px solid transparent;
+    border-top: 12px solid #025c6a;
+    border-right: 12px solid #025c6a;
+  }
+}
+
+.icon {
+  pointer-events: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 2385px;
+  height: 1443px;
+  opacity: 0.4;
+  z-index: -1;
+}

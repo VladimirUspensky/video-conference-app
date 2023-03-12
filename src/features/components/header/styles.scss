@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  padding: 25px 0;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+
+  &-link {
+    transition: 0.2s ease all;
+    margin: 0 12px;
+    font-weight: 500;
+    font-size: 18px;
+
+    &:hover {
+      opacity: 0.25;
+    }
+  }
+}

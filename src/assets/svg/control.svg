@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="xMinYMin slice" viewBox="0 0 37 36" fill="none" stroke="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
+<circle cx="27.5" cy="13.5" r="3" transform="rotate(90 27.5 13.5)"  stroke-width="1.5"/>
+<path d="M27.5 6L27.5 10.5"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.5 16.5L27.5 30"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="9.5" cy="13.5" r="3" transform="rotate(90 9.5 13.5)"  stroke-width="1.5"/>
+<path d="M9.5 6L9.5 10.5"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 16.5L9.5 30"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="18.5" cy="22.5" r="3" transform="rotate(90 18.5 22.5)"  stroke-width="1.5"/>
+<path d="M18.5 6L18.5 19.5"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.5 25.5L18.5 30"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

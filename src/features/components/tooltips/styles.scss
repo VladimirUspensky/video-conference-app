@@ -1,0 +1,80 @@
+.celluar-tooltip {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+
+  &-wrapper {
+    bottom: -90px;
+    left: -100px;
+    padding: 10px 15px;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 19px;
+
+    &:not(:last-child) {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.mute-tooltip {
+  position: relative;
+
+  &-wrapper {
+    top: -21px;
+    right: -47px;
+    padding: 3px 10px;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.background-tooltip {
+  position: relative;
+
+  &-wrapper {
+    top: -21px;
+    right: -47px;
+    padding: 3px 10px;
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.dots-tooltip {
+  position: relative;
+
+  &-wrapper {
+    bottom: 40px;
+    right: -180px;
+    padding: 3px 10px;
+
+    @media screen and (max-width: 1460px) {
+      right: -100px;
+    }
+  }
+
+  span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+.blur {
+  background: rgba(0, 40, 49, 0.28);
+  border-radius: 8px;
+}
+
+.tooltip {
+  position: absolute;
+  white-space: nowrap;
+}

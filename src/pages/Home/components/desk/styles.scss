@@ -1,0 +1,42 @@
+.desk {
+  width: 270px;
+  height: 417px;
+  padding: 17px 32px;
+  background: #17afba;
+  border-radius: 10px;
+  position: absolute;
+  left: calc(50% - 450px);
+  top: 167px;
+  transform: translate(-50%, 0);
+
+  @media screen and(max-width: 1860px) {
+    height: 200px;
+    left: 70px;
+    transform: unset;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &-name {
+      font-size: 16px;
+      line-height: 19px;
+      padding: 5px 10px;
+      background: rgba(0, 40, 49, 0.28);
+      border-radius: 8px;
+    }
+
+    &-color {
+      background: #eb5757;
+      border-radius: 8px;
+      width: 28px;
+      height: 28px;
+      margin-left: 6.5px;
+    }
+  }
+}

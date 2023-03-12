@@ -1,0 +1,13 @@
+.target {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: 243px;
+  right: 296px;
+  border: 3px dashed #dfdfdf;
+  z-index: 2;
+
+  svg {
+    width: 100%;
+  }
+}

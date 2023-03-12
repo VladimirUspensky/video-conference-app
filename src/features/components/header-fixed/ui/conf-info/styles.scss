@@ -1,0 +1,23 @@
+.conf-info {
+  display: flex;
+  align-items: center;
+
+  & > span {
+    background: rgba(0, 40, 49, 0.28);
+    border-radius: 8px;
+    padding: 3px 10px;
+  }
+
+  &-name {
+    margin-left: 12px;
+  }
+
+  &-time {
+    margin-left: 4px;
+  }
+
+  &-avatar {
+    border: 2px solid #00ca42;
+    border-radius: 100%;
+  }
+}

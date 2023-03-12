@@ -1,0 +1,46 @@
+body .toggle-icon {
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  transition: 0.2s ease all;
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &-tooltip {
+    position: absolute;
+    top: -5000px;
+    left: -5000px;
+    transition: 0.2s ease all;
+  }
+
+  &:hover {
+    background: rgba(0, 40, 49, 0.3);
+
+    .toggle-icon-tooltip {
+      position: static;
+      top: unset;
+      left: unset;
+    }
+  }
+
+  &-dots {
+    position: absolute;
+    right: 6px;
+    width: unset;
+  }
+
+  &.with-dots {
+    width: 60px;
+    justify-content: flex-start;
+  }
+
+  &.active svg {
+    stroke: #17afba;
+  }
+}

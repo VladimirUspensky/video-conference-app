@@ -1,0 +1,32 @@
+.footer {
+  background: #17afba;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 47px;
+  width: 1048px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  transition: 0.2s ease all;
+
+  & > div {
+    display: flex;
+    padding: 16px 21px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &.fullscreen {
+    bottom: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  &.desk {
+    width: 1180px;
+
+    @media screen and (max-width: 1460px) {
+      width: 90%;
+    }
+  }
+}

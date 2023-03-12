@@ -1,0 +1,21 @@
+.column-actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: -18px;
+  margin-left: -22px;
+  margin-bottom: -18px;
+
+  & > * {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s ease all;
+
+    &:hover {
+      background: #015869;
+    }
+  }
+}

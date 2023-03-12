@@ -1,0 +1,15 @@
+.dots-tooltip-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  width: 100%;
+  cursor: pointer;
+
+  @media screen and (max-width: 1460px) {
+    padding: 4px 10px;
+  }
+
+  svg {
+    margin-right: 10px;
+  }
+}

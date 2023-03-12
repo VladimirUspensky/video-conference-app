@@ -1,0 +1,54 @@
+.login {
+  padding: 47px 170px 61px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+  &-blur {
+    z-index: -1;
+    background: rgba(0, 40, 49, 0.2);
+    border: 1px solid rgba(23, 175, 186, 0.3);
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 42px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.input {
+  margin: 23px 0 19px 0;
+  border-radius: 10px;
+
+  input {
+    padding: 25px 35px;
+    background: rgba(0, 40, 49, 0.3);
+  }
+}
+
+.button {
+  padding: 15px 14px;
+}
+
+.flex {
+  display: flex;
+
+  & > *:first-child {
+    margin-right: 23px;
+  }
+}
+
+.icons {
+  display: flex;
+  width: fit-content;
+  gap: 13px;
+  padding: 14px 18px;
+  background: rgba(0, 40, 49, 0.3);
+  border-radius: 10px;
+  margin: 134px auto 0 auto;
+}
