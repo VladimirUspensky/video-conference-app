@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Utily';
+  src: url('./assets/fonts/Utily-Bold.eot');
+  src: local('Utily Bold'), local('Utily-Bold'),
+    url('./assets/fonts/Utily-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Utily-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Utily-Bold.woff') format('woff'),
+    url('./assets/fonts/Utily-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Utily';
+  src: url('./assets/fonts/Utily-Regular.eot');
+  src: local('Utily Regular'), local('Utily-Regular'),
+    url('./assets/fonts/Utily-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Utily-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Utily-Regular.woff') format('woff'),
+    url('./assets/fonts/Utily-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Utily';
+  src: url('./assets/fonts/Utily-Medium.eot');
+  src: local('Utily Medium'), local('Utily-Medium'),
+    url('./assets/fonts/Utily-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Utily-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Utily-Medium.woff') format('woff'),
+    url('./assets/fonts/Utily-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: #015869;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+svg {
+  transition: 0.2s ease all;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Utily';
+  color: #ffffff;
+  line-height: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

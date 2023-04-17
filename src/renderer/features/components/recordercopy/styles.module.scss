@@ -1,0 +1,45 @@
+.sel {
+  background-color: black;
+  max-width: 200px;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  gap: 5px;
+}
+.videocon video {
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 10px;
+}
+.videocon {
+  z-index: 100;
+  overflow: hidden;
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  background-color: rgba(0, 40, 49, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  transition: 0.5s;
+}
+.videocon:hover {
+  padding-top: 120px;
+}
+.videocon:hover video {
+  transform: translateY(0%);
+}
+.videono {
+  transform: translateY(-110%);
+  // position: absolute;
+}
+.video {
+  transform: translateY(-110%);
+}
+.container:hover {
+}

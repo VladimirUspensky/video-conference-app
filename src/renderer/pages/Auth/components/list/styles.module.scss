@@ -1,0 +1,47 @@
+.list {
+  list-style: none;
+  margin: 68px 0 0 0;
+  padding: 0;
+  cursor: pointer;
+
+  @media screen and (max-width: 1460px) {
+    margin-top: 48px;
+  }
+
+  &-date {
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+  }
+
+  &-name {
+    z-index: 1;
+    position: relative;
+  }
+
+  &-blur {
+    background: rgba(0, 40, 49, 0.3);
+  }
+
+  li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 22px 26px 22px 35px;
+    margin-bottom: 13px;
+  }
+
+  svg {
+    z-index: 1;
+    position: relative;
+    margin-left: 19px;
+    cursor: pointer;
+  }
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

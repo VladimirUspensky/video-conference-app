@@ -1,0 +1,25 @@
+.sel {
+  background-color: black;
+}
+.container {
+  display: flex;
+}
+.videocon {
+  z-index: 100;
+  overflow: hidden;
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  background-color: rgba(0, 40, 49, 0.3);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.videono {
+  position: absolute;
+  transform: translateY(-110%);
+}
+.video {
+}

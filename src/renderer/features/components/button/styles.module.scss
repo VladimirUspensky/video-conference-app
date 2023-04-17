@@ -1,0 +1,35 @@
+.button {
+  border-radius: 5px;
+  padding: 20px 38px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.2s ease all;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: none;
+  white-space: nowrap;
+
+  &.primary {
+    background: #17afba;
+
+    &:hover {
+      background: #11858e;
+    }
+  }
+  &.disabled {
+    pointer-events: none;
+    background: #ccc;
+    cursor: not-allowed;
+  }
+
+  &.outline {
+    border: 1px solid #17afba;
+  }
+
+  svg {
+    margin-left: 10px;
+  }
+}

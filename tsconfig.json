@@ -1,40 +1,28 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "downlevelIteration": true,
-    "allowJs": true,
-    "skipLibCheck": true,
+    "incremental": true,
+    "target": "es2021",
+    "module": "commonjs",
+    "lib": ["dom", "es2021"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "baseUrl": "src",
+    "allowJs": true,
+    "outDir": ".erb/dll",
+    "baseUrl": "./src",
     "paths": {
-      "@api": ["./api"],
-      "@assets/*": ["./assets/*"],
-      "@features": ["./features"],
-      "@components": ["./components"],
-      "@ui": ["./ui"],
-      "@pages/*": ["./pages/*"],
-      "@styles/*": ["./styles/*"],
-      "~types": ["./types"],
+      "@api": ["./renderer/api"],
+      "@assets/*": ["./renderer/assets/*"],
+      "@features": ["./renderer/features"],
+      "@components": ["./renderer/components"],
+      "@ui": ["./renderer/ui"],
+      "@pages/*": ["./renderer/pages/*"],
+      "@styles/*": ["./renderer/styles/*"]
     }
   },
-  "include": [
-    "src/**/*",
-    "src",
-    "types.d.ts"
-  ]
+  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"]
 }
